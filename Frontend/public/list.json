@@ -1,0 +1,65 @@
+[{
+    "id":1,
+    "name":"Fiction",
+    "title":"Loreum, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price":0,
+    "category":"Free",
+    "image":"/Fiction.png"
+},
+{
+    "id":2,
+    "name":"Non-Fiction",
+    "title":"Loreum, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price":0,
+    "category":"Free",
+    "image":"./Non-Fiction.png"
+},
+{
+    "id":3,
+    "name":"Genre-Specific",
+    "title":"Loreum, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price":0,
+    "category":"Free",
+    "image":"/Genre-Specific.png"
+},
+{
+    "id":4,
+    "name":"Genre-Specific",
+    "title":"Loreum, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price":0,
+    "category":"Free",
+    "image":"/Genre-Specific.png"
+},
+{
+    "id":5,
+    "name":"Psychology",
+    "title":"Loreum, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price":0,
+    "category":"Free",
+    "image":"/Psychology.png"
+},
+{
+    "id":6,
+    "name":"Educational and Reference",
+    "title":"Loreum, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price":0,
+    "category":"Free",
+    "image":"/Educational and Reference.png"
+},
+{
+    "id":7,
+    "name":"Specialty",
+    "title":"Loreum, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price":0,
+    "category":"Free",
+    "image":"/Specialty.png"
+},
+{
+    "id":8,
+    "name":"Political Fiction",
+    "title":"Loreum, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price":0,
+    "category":"Free",
+    "image":"/Political Fiction.png"
+}
+]
