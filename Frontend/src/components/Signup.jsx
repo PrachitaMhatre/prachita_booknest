@@ -104,7 +104,7 @@ function Signup() {
               </div>
               {/* Button */}
               <div className="flex justify-around mt-4">
-                <button className="bg-red-700 text-white rounded-md px-3 py-1 hover:bg-red-500 duration-200">
+                <button className="bg-red-500 text-white rounded-md px-3 py-1 hover:bg-red-700 duration-200">
                   Signup
                 </button>
                 <p className="text-xl">

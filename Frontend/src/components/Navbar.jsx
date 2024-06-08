@@ -3,6 +3,7 @@ import { useState } from "react";
 import Login from "./Login";
 import Logout from "./Logout";
 import { useAuth } from "../context/AuthProvider";
+import logo from "/logo.png";
 
 function Navbar() {
   const [authUser, setAuthUser] = useAuth();
@@ -45,7 +46,7 @@ function Navbar() {
         <a href="/course">Course</a>
       </li>
       <li>
-        <a>Contact</a>
+      <a >Contact</a>
       </li>
       <li>
         <a>About</a>
@@ -91,7 +92,8 @@ function Navbar() {
                 {navItems}
               </ul>
             </div>
-            <a className=" text-2xl font-bold cursor-pointer">bookStore</a>
+               <a className=" text-2xl font-bold cursor-pointer">Prachita's Booknest</a>
+               {/*<img src={logo} alt="Logo" className="navbar-logo-img h-20 w-50" />*/}
           </div>
           <div className="navbar-end space-x-3">
             <div className="navbar-center hidden lg:flex">
@@ -152,7 +154,7 @@ function Navbar() {
             ) : (
               <div className="">
                 <a
-                  className="bg-red-700 text-white px-3 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer"
+                  className="bg-red-500 text-white px-3 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer"
                   onClick={() =>
                     document.getElementById("my_modal_3").showModal()
                   }

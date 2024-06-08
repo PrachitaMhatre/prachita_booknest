@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Cards from "./Cards";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import list from "../../public/list.json";
 
 function Course() {
   const [book, setBook] = useState([]);
@@ -24,7 +23,7 @@ function Course() {
         <div className="mt-28 items-center justify-center text-center">
           <h1 className="text-2xl  md:text-4xl">
           Find Your Story Among the {" "}
-            <span className="text-red-700"> Shelves!</span>
+            <span className="text-red-500"> Shelves!</span>
           </h1>
           <p className="mt-12">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro,
@@ -36,7 +35,7 @@ function Course() {
             consequatur!
           </p>
           <Link to="/">
-            <button className="mt-6 bg-red-700 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration-300">
+            <button className="mt-6 bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-700 duration-300">
               Back
             </button>
           </Link>
