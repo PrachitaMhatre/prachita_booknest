@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PrachitaMhatre/Prachita-Booknest.git"
+    "url": "git+https://github.com/PrachitaMhatre/prachita_booknest.git"
   },
   "author": "Prachita Mhatre",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PrachitaMhatre/Prachita-Booknest.git/issues"
+    "url": "https://github.com/PrachitaMhatre/prachita_booknest.git/issues"
   },
-  "homepage": "https://github.com/PrachitaMhatre/Prachita-Booknest.git#readme",
+  "homepage": "https://github.com/PrachitaMhatre/prachita_booknest.git#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
